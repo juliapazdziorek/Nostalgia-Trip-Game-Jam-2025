@@ -1,7 +1,8 @@
-
 # Banana's Era Shift
 
 A nostalgia trip through the eras of gaming — three levels, three art styles, three cameras and two players styled after iconic gaming characters.
+
+Built in **24 hours** at the PJATK Game Jam. For the record: 24 hours is *nowhere near* enough time, so the code quality isn't the best. For your own sanity, don't look too closely at the files.
 
 https://github.com/user-attachments/assets/20113fd2-0ea8-44fb-b869-48d30ed3a78a
 
@@ -56,7 +57,7 @@ camera all shift together.
 - [@VeeturN](https://github.com/VeeturN)
 - [@User31181](https://github.com/User31181)
 
-Big thanks to the PJATK Game Jam organizers, the jury, and everyone who showed up to playtest at 4 AM.
+Big thanks to the PJATK Game Jam organizers and the jury.
 
 ## License
 
