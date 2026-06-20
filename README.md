@@ -40,7 +40,7 @@ camera all shift together.
 ## Built With
 
 - **Engine** — [Unity 2022.3.46f1 LTS](https://unity.com/)
-- **Language** — C# (~24 gameplay scripts, ~2,400 lines)
+- **Language** — C#
 - **Art** — hand-drawn 2D sprites
 
 ## My Role
