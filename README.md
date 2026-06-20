@@ -1,22 +1,31 @@
 
 # Banana's Era Shift
 
-A nostalgia trip through the eras of gaming — three levels, three art styles, three cameras, two players who don't quite play the same game.
+A nostalgia trip through the eras of gaming — three levels, three art styles, three cameras and two players styled after iconic gaming characters.
 
-<!-- Drop your gameplay GIF or MP4 right here.
-     Easiest way: open this README in GitHub's web editor and drag the file
-     into the editor — GitHub will host it for you automatically. -->
-![Gameplay Preview](docs/media/gameplay.gif)
+https://github.com/user-attachments/assets/20113fd2-0ea8-44fb-b869-48d30ed3a78a
 
 ---
+## The Idea
 
-## About
+Two players, one goal, three levels you can't beat alone. Each player controls a
+shape-shifter with its own tricks — you'll need both to get anywhere.
 
-Banana's Era Shift is a local co-op 2D platformer built in **24 hours** during the 8th edition of the **PJATK Game Jam — *Nostalgia Trip*** (November 2025). It took home **2nd place**.
+- **Player 1 — Sonic form** — small and fast, slips through tight gaps.
+- **Player 2 — Kong form** — big and strong, shoves and smashes through obstacles.
 
-The hook: two players, two shape-shifters, three different eras of platforming. Each player drives a small generic mascot that **transforms on demand into its legendary form** — Player 1 shrinks down into a quick, expressive **Sonic the Hedgehog**, Player 2 bulks up into a heavy classic **Kong**. Transformation isn't cosmetic — it's how you solve the level. Hedgehog-Sonic's smaller hitbox squeezes through gaps that the default mascot can't fit through; Kong's bulkier form can shove rolling barrels around the stage instead of dying on contact. The two forms unlock different routes through the same room, and the players have to coordinate which form is doing what at any moment. Hedgehog collects apples, Kong collects bananas, and together they traverse three levels — each one shifting the visual style **and** the camera system to match a different era of the medium.
+### Three levels, three eras
 
-## Features
+Every level jumps to a new generation of gaming — the art, the resolution, and the
+camera all shift together.
+
+| Level | Era | Camera |
+|:-:|-|-|
+| **1** | Low-res arcade pixels — *Donkey Kong* cabinet vibes | Static single frame, no scrolling |
+| **2** | Crisp 16-bit pixel art | One shared camera trailing the action |
+| **3** | Modern hand-drawn 2D | Split-screen that merges up close, splits apart |
+
+### Features
 
 - **Movement that ages with the era.** Level 1 is deliberately stiff and arcade-y; later levels loosen up into dashes, wall-jumps and a grappling hook with auto-aim.
 - **One-button shape-shift, asymmetric powers.** Hedgehog-Sonic shrinks to slip through tight gaps; Kong bulks up to shove rolling barrels around. Same input, opposite affordances.
@@ -33,6 +42,12 @@ The hook: two players, two shape-shifters, three different eras of platforming. 
 - **Engine** — [Unity 2022.3.46f1 LTS](https://unity.com/)
 - **Language** — C# (~24 gameplay scripts, ~2,400 lines)
 - **Art** — hand-drawn 2D sprites
+
+## My Role
+
+- **Game design** — the core concept, the shape-shift hook, and how the co-op loop fits together
+- **Level design** — laying out the three levels and the routes each form unlocks
+- **Technical design of the mechanics** — speccing how the transformations, obstacles and camera systems behave
 
 ## The Team
 
